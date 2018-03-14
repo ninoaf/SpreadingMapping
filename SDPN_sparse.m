@@ -1,5 +1,5 @@
 function [ D ] = SDPN_sparse( A, N, E, beta, gamma,  source )
-% INPUT: adjacency matrix A, number of nodes N, number of edges E,
+% INPUT: adjacency matrix A (unweighted), number of nodes N, number of edges E,
 % parameters of SIR beta,gamma, id of source node
 % OUTPUT: Vector of first infection from source to other nodes
 
